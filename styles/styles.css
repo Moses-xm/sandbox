@@ -1,0 +1,82 @@
+body {
+  padding: 0 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.store-info {
+  display: flex;
+  align-items: center;
+}
+
+.store-name {
+  margin-left: 50px;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 10px;
+  width: 180px;
+}
+
+li {
+  border: 1px solid black;
+  text-align: center;
+  background-color: bisque;
+  font-size: 18px;
+}
+
+.navigation {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+}
+
+li:first-child {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  color: rgb(118, 117, 117);
+}
+
+label {
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.submit {
+  width: 130px;
+  margin-left: 110px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(118, 117, 117);
+}
+
+.website {
+  font-style: italic;
+}
+
+
